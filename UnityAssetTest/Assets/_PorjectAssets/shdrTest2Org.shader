@@ -1,4 +1,4 @@
-﻿Shader "Unlit/NewUnlitShader"
+﻿Shader "Custom/Test2Org"
 {
 	Properties
 	{
@@ -12,6 +12,7 @@
 		Pass
 		{
 			CGPROGRAM
+
 			#pragma vertex vert
 			#pragma fragment frag
 			// make fog work
